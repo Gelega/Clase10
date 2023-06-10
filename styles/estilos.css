@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: black;
+}
+
+header{
+    background-color:rgb(134, 132, 132);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+header>img {
+    width: 58px;
+    margin: 10px 10px;
+}
+
+h1 {
+    display: inline-block;
+    color:darkgreen;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    font-size:45px;
+}
+
+nav { 
+    float: right;
+    margin-right: 25px;
+}
+
+nav>ul>li {                                                                                                                                                          
+    list-style:none;
+    float:left;
+    margin: 23px 25px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color:darkgreen;
+    font-weight: bold;
+}
+
+main {
+    display: inline-block;
+    margin: 70px 25px;
+    position: relative;
+}
+
+#secMainTipos {
+    background-color: rgb(134, 132, 132);
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 5% 35%;    
+}
+
+#secMainTipos h2 {
+    margin: 15px;
+    color: darkgreen;
+}
+
+#secMainTipos ul  {
+    margin: 15px;
+}
+
+#secMainTipos li {
+    list-style:none;
+    color: darkgreen;
+}
+
+
+.artic>img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.artic>h2 {
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    width: 50%;
+}
+
+.artic>p {
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    top:20%;
+    width: 50%;
+}
+
+.artic {
+    background-color: rgb(134, 132, 132);
+    border-radius: 10px;
+    margin:25px 25px;
+    display:inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.artic2 {
+    background-color: rgb(134, 132, 132);
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.artic2 h3 {
+    margin: 15px;
+}
+
+.artic2 p {
+    margin: 15px;
+}
+
+#texarticle2 {
+    display: inline;
+    position: absolute;
+    left: 45%;
+    top:20%;
+    width: 50%;
+}
+
+section {
+    /*background-color: rgb(134, 132, 132);*/
+    background-color: black;
+}
+
+article {
+    background-color: rgb(134, 132, 132);
+    display: inline-block;
+}
+
+.mainArtNos {
+    background-color: rgb(134, 132, 132);
+    height: 500px;
+    width: 1200px;
+    margin: 50px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+aside {
+    background-color: rgb(134, 132, 132);
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top:3%;
+    border-radius: 10px;
+}
+
+.widget {
+    margin: 20px 20px 20px 20px;
+}
+
+.widget h3 {
+    background-color:  lightgreen ;
+    border-radius: 15px;  
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.widget form input {
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    background-color: rgba(144, 238, 144, 0.438);
+}
+
+
+.linoti{
+    margin: 15px 0;
+    list-style:none;
+}
+
+.noti {
+    margin: 25px 0px;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+footer {
+    background-color: rgb(134, 132, 132);
+    height: 250px;
+    position: relative;
+    border-radius: 25px;
+}
+
+footer>ul {
+    margin: 25px 30px;
+    position: absolute;
+}
+
+footer>ul>li {
+    text-align: center;
+    list-style:none;
+    margin: 45px 0px;
+}
